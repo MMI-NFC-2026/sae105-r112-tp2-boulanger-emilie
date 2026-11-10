@@ -12,12 +12,19 @@
   <header class="header header--home">
 
     <!-- Menu principal -->
+    <!--Ouvrir popover depuis le bouton-->
     <button class="burger" type="button" popovertarget="menu" aria-label="Menu">
       🍔
     </button>
 
+    <!--Déclarer popover-->
     <nav class="menu" id="menu" popover aria-label="Main menu"></nav>
-      <button class="menu__close burger burger--close" type="button" popovertarget="menu" popovertargetaction="hide" aria-label="Close the menu" autofocus>
+      <!--Fermer le menu depuis le bouton menu-->
+      <button class="menu__close burger burger--close" type="button" 
+      popovertarget="menu" 
+      popovertargetaction="hide" 
+      aria-label="Close the menu" 
+      autofocus> <!--Fermer le menu en appuyant sur entrée-->
         🍔
       </button>
       <ul class="menu__list">
