@@ -14,6 +14,7 @@
     opacity: 1;
 }
 
+/*Permet d'avoir de l'animation*/
 @starting-style {
     .menu:popover-open {
         opacity: 0;
